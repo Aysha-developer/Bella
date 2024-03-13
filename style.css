@@ -409,8 +409,9 @@ section{
         right: 0;
         flex-direction: column;
         text-align: center;
-        background: black;
+        background: white;
         gap: 0;
+        color: black;
         overflow: hidden;
     }
     header .navbar a{
