@@ -434,6 +434,30 @@ section{
 
 }
 
+@media (max-width:600px) {
+    header .navbar{
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        text-align: center;
+        background: black;
+        gap: 0;
+        overflow: hidden;
+    }
+    header .navbar a{
+        padding: 20px;
+        padding-top: 0;
+    }
+    header #toggler:checked~ .navbar.{
+        display: block;
+    }
+    #navbar{
+        transition: all 0.5s;
+    }
+}
+
 @media (max-width:450px){
 
 
